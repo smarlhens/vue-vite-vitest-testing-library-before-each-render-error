@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`popover-without-before-each.vue > should render 1`] = `
+"<div data-headlessui-state=\\"open\\" class=\\"relative\\"><button id=\\"headlessui-popover-button-1\\" type=\\"button\\" aria-expanded=\\"true\\" data-headlessui-state=\\"open\\" aria-controls=\\"headlessui-popover-panel-2\\">Solutions</button>
+  <!---->
+  <transition-stub enteractiveclass=\\"transition duration-200 ease-out\\" enterfromclass=\\"translate-y-1 opacity-0\\" entertoclass=\\"translate-y-0 opacity-100\\" leaveactiveclass=\\"transition duration-150 ease-in\\" leavefromclass=\\"translate-y-0 opacity-100\\" leavetoclass=\\"translate-y-1 opacity-0\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+    <div class=\\"absolute z-10\\" id=\\"headlessui-popover-panel-2\\" data-headlessui-state=\\"open\\">
+      <!---->
+      <div class=\\"grid grid-cols-2\\"><a href=\\"/analytics\\">Analytics</a><a href=\\"/engagement\\">Engagement</a><a href=\\"/security\\">Security</a><a href=\\"/integrations\\">Integrations</a></div><img src=\\"/solutions.jpg\\" alt=\\"\\">
+      <!---->
+    </div>
+  </transition-stub>
+</div>"
+`;
